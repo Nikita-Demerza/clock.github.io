@@ -26,7 +26,7 @@ function draw(){
     text(9,155,0);
     pop();
     strokeWeight(5);
-    noFill();
+    fill(0,1,1);
     
     let sAngle = map(s, 0, 60, 0, 360);
     stroke(255, 0, 0);
